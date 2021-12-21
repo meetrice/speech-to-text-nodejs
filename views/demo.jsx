@@ -488,7 +488,7 @@ export class Demo extends Component {
                 id="speaker-labels"
               />
               <label className="base--inline-label" htmlFor="speaker-labels">
-                检测多发言人 {this.supportsSpeakerLabels() ? '' : ' (Not supported on current model)'}
+                检测多发言人 {this.supportsSpeakerLabels() ? '' : ' (此语言不支持)'}
               </label>
             </p>
 
