@@ -470,7 +470,7 @@ export class Demo extends Component {
         <div className="flex setup">
           <div className="column">
 
-            <p>Voice Model:
+            <p>语言:
               <ModelDropdown
                 model={model}
                 accessToken={token || accessToken}
@@ -488,7 +488,7 @@ export class Demo extends Component {
                 id="speaker-labels"
               />
               <label className="base--inline-label" htmlFor="speaker-labels">
-                Detect multiple speakers {this.supportsSpeakerLabels() ? '' : ' (Not supported on current model)'}
+                检测多发言人 {this.supportsSpeakerLabels() ? '' : ' (Not supported on current model)'}
               </label>
             </p>
 
@@ -512,19 +512,19 @@ export class Demo extends Component {
         <div className="flex buttons">
 
           <button type="button" className={micButtonClass} onClick={this.handleMicClick}>
-            <Icon type={audioSource === 'mic' ? 'stop' : 'microphone'} fill={micIconFill} /> Record Audio
+            <Icon type={audioSource === 'mic' ? 'stop' : 'microphone'} fill={micIconFill} /> 录制声音
           </button>
 
           <button type="button" className={buttonClass} onClick={this.handleUploadClick}>
-            <Icon type={audioSource === 'upload' ? 'stop' : 'upload'} /> Upload Audio File
+            <Icon type={audioSource === 'upload' ? 'stop' : 'upload'} /> 上传音频文件
           </button>
 
           <button type="button" className={buttonClass} onClick={this.handleSample1Click}>
-            <Icon type={audioSource === 'sample-1' ? 'stop' : 'play'} /> Play Sample 1
+            <Icon type={audioSource === 'sample-1' ? 'stop' : 'play'} /> 播放示例一
           </button>
 
           <button type="button" className={buttonClass} onClick={this.handleSample2Click}>
-            <Icon type={audioSource === 'sample-2' ? 'stop' : 'play'} /> Play Sample 2
+            <Icon type={audioSource === 'sample-2' ? 'stop' : 'play'} /> 播放示例二
           </button>
 
         </div>
@@ -532,7 +532,7 @@ export class Demo extends Component {
         {err}
 
         <Tabs selected={0}>
-          <Pane label="Text">
+          <Pane label="识别文本">
             {settingsAtStreamStart.speakerLabels
               ? <SpeakersView messages={messages} />
               : <Transcript messages={messages} />}
