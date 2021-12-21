@@ -461,27 +461,10 @@ export class Demo extends Component {
           </div>
         </div>
 
-        <div className="new_demo_notification">
-          <Alert type="info" color="blue">
-            {NEW_DEMO_NOTIFICATION}
-            <a href="https://www.ibm.com/demos/live/speech-to-text/self-service/home" target="blank">
-              here.
-            </a>
-          </Alert>
-        </div>
 
-        <h2 className="base--h2">Transcribe Audio</h2>
 
-        <ul className="base--ul">
-          {micBullet}
-          <li className="base--li">Upload pre-recorded audio (.mp3, .mpeg, .wav, .flac, or .opus only).</li>
-          <li className="base--li">Play one of the sample audio files.*</li>
-        </ul>
 
-        <div className="smalltext">
-          *Both US English broadband sample audio files are covered under the
-          Creative Commons license.
-        </div>
+
 
         <div style={{
           paddingRight: '3em',

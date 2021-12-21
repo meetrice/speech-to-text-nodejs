@@ -40,12 +40,7 @@ export default function Layout({ children }) {
         />
 
 
-        <div className="_container _container_large gdpr-info">
-          By using this application, you agree to the &nbsp;
-          <a target="_blank" rel="noreferrer noopener" href={TERMS_OF_USE_URL}>
-                Terms of Use
-          </a>
-        </div>
+
         <div id="root">
           {children}
         </div>
