@@ -39,9 +39,7 @@ export default function Layout({ children }) {
           description={DESCRIPTION}
         />
 
-        <div className="_container _container_large gdpr-info">
-          {GDPR_INFO}
-        </div>
+
         <div className="_container _container_large gdpr-info">
           By using this application, you agree to the &nbsp;
           <a target="_blank" rel="noreferrer noopener" href={TERMS_OF_USE_URL}>
