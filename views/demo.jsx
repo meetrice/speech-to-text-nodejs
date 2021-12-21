@@ -493,19 +493,7 @@ export class Demo extends Component {
             </p>
 
           </div>
-          <div className="column">
 
-            <p>Keywords to spot: <input
-              value={this.getKeywordsArrUnique().join()}
-              onChange={this.handleKeywordsChange}
-              type="text"
-              id="keywords"
-              placeholder="Type comma separated keywords here (optional)"
-              className="base--input"
-            />
-            </p>
-
-          </div>
         </div>
 
 
