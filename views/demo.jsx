@@ -525,19 +525,7 @@ export class Demo extends Component {
               ? <SpeakersView messages={messages} />
               : <Transcript messages={messages} />}
           </Pane>
-          <Pane label="Word Timings and Alternatives">
-            <TimingView messages={messages} />
-          </Pane>
-          <Pane label={`Keywords ${getKeywordsSummary(settingsAtStreamStart.keywords, messages)}`}>
-            <Keywords
-              messages={messages}
-              keywords={settingsAtStreamStart.keywords}
-              isInProgress={!!audioSource}
-            />
-          </Pane>
-          <Pane label="JSON">
-            <JSONView raw={rawMessages} formatted={formattedMessages} />
-          </Pane>
+
         </Tabs>
       </Dropzone>
     );
