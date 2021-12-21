@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Header, Jumbotron } from 'watson-react-components';
 
 // eslint-disable-mnext-lin =
-const DESCRIPTION = 'The IBM Watson Speech to Text service uses speech recognition capabilities to convert Arabic, English, Spanish, French, Brazilian Portuguese, Japanese, Korean, German, and Mandarin speech into text.';
+const DESCRIPTION = '语音识别.';
 const GDPR_INFO = 'This system is for demonstration purposes only and is not intended to process Personal Data. No Personal Data is to be entered into this system as it may not have the necessary controls in place to meet the requirements of the General Data Protection Regulation (EU) 2016/679';
 const TERMS_OF_USE_URL = 'https://watson-developer-cloud.github.io/terms?name=Speech-to-Text%20Demo';
 
