@@ -1,15 +1,5 @@
 [
-  {
-    "name": "zh-CN_BroadbandModel",
-    "language": "zh-CN",
-    "url": "https://api.us-south.speech-to-text.watson.cloud.ibm.com/v1/models/zh-CN_BroadbandModel",
-    "rate": 16000,
-    "supported_features": {
-      "custom_language_model": false,
-      "speaker_labels": false
-    },
-    "description": "中文普通话."
-  },
+
   {
     "name": "en-US_NarrowbandModel",
     "language": "en-US",
@@ -20,5 +10,16 @@
       "speaker_labels": true
     },
     "description": "英语."
+  },
+  {
+    "name": "zh-CN_BroadbandModel",
+    "language": "zh-CN",
+    "url": "https://api.us-south.speech-to-text.watson.cloud.ibm.com/v1/models/zh-CN_BroadbandModel",
+    "rate": 16000,
+    "supported_features": {
+      "custom_language_model": false,
+      "speaker_labels": false
+    },
+    "description": "中文普通话."
   }
 ]
